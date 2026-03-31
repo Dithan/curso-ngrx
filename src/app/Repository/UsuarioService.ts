@@ -1,5 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { IUsuario } from '../Models/UsuarioModel';
+import { IUsuario } from '../Interfaces/UsuarioModel';
 import { Injectable } from '@angular/core';
 
 // Conecta com a "API" Json server

@@ -1,0 +1,49 @@
+<form action="" id="myForm"  (ngSubmit)="addUsuario()">
+  <div class="col-6">
+    <label for="id">Id</label>
+    <input
+      id="id"
+      name="id"
+      [(ngModel)]="model.id"
+      type="text"
+      class="form-control"
+    />
+  </div>
+
+  <div class="col-6">
+    <label for="nome">Nome</label>
+    <input
+      id="nome"
+      name="nome"
+      [(ngModel)]="model.nome"
+      type="text"
+      class="form-control"
+    />
+  </div>
+
+  <div class="col-6">
+    <label for="idade">Idade</label>
+    <input
+      id="idade"
+      name="idade"
+      [(ngModel)]="model.idade"
+      type="text"
+      class="form-control"
+    />
+  </div>
+
+  <div class="col-6">
+    <label for="perfil">Perfil</label>
+    <input
+      id="perfil"
+      name="perfil"
+      [(ngModel)]="model.perfil"
+      type="text"
+      class="form-control"
+    />
+  </div>
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+  </div>
+</form>

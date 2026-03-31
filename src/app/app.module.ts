@@ -7,9 +7,10 @@ import { ListarUsuariosComponent } from './listar-usuarios/listar-usuarios.compo
 import { MainComponent } from './main/main.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { CadastroUsuariosComponent } from './cadastro-usuarios/cadastro-usuarios.component';
 
 @NgModule({
-  declarations: [AppComponent, ListarUsuariosComponent, MainComponent],
+  declarations: [AppComponent, ListarUsuariosComponent, MainComponent, CadastroUsuariosComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
